@@ -1,0 +1,170 @@
+
+body {
+  background-color: #EFDFBB
+}
+
+div {
+  position: fixed;
+  left: -2.5;
+  display: inline-block;
+  z-index: 1;
+  width: 27%;
+  height: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 1rem;
+  margin-left: 1.5%;
+  overflow: auto;
+  text-align: left;
+}
+
+  /* If the screen size is 950px wide or less, hide nav */
+@media only screen and (max-width: 950px) {
+  div {
+      display: none;
+    }
+  }
+
+      /* If the screen size is 660px wide or less, hide nav */
+@media only screen and (max-width: 660px) {
+#sub-title {
+right: -15rem;
+position: static;
+}
+}
+
+.nav-link {
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+  width: 100%;
+  line-height: 200%;
+  text-indent: -25;
+}
+
+ul li a {
+  color: black;
+  padding-left: 0;
+  padding-right: 1rem;
+  display: inline-flex;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 0;
+  list-style-position: outside;
+}
+
+li a:hover {
+  background-color: #F0EAD6;
+  color: black;
+}
+
+
+#main-doc {
+  width: 72.5%;
+  font-family: script, serif, sans-serif;
+  background-color: #F0EAD6;
+  margin-left: auto;
+  padding-left: 0;
+}
+
+h1 {
+  font-size: xxx-large;
+  margin-top: 10%;
+  text-align: center;
+}
+
+#sub-title {
+  text-align: center;
+  position: relative;
+  bottom: 25;
+  right: -9rem;
+  font-family: Lucida-calligraphy, "Playfair Display", serif;
+
+
+}
+
+.main-section {
+  border: 2px solid #EFDFBB;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  border-bottom: thicker;
+}
+
+h3, h4 {
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5;
+}
+
+span.bold {
+  font-weight: bold;
+  font-size: larger;
+}
+
+span.italics {
+  font-style: italic;
+  font-size: large;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+/* unsuccessful */
+/* p:not(.center)  */
+p:not(.playtime){
+  line-height: 1.3;
+  text-align: justify;
+}
+
+.sun {
+  max-width: 200px;
+  position: sticky;
+  float: right;
+  display: block;
+  border-radius: 15%;
+  border: 0.3em solid #EFDFBB;
+  margin-left: 2%;
+  margin-right: 0.75%;
+}
+
+.playtime, .Randall_of_the_Wild, .Eartha_Mae_Kit {
+  text-align: center;
+}
+
+ul li:not(#navbar) {
+  list-style: none;
+  text-align: center;
+  letter-spacing: 1.5;
+  line-height: 150%;
+  text-indent: 0;
+}
+
+.bold-small {
+  font-weight: bold;
+  font-size: large;
+}
+
+.puppy-boy {
+  max-width: 214px;
+  position: sticky;
+  display: block;
+  margin: auto;
+  border-radius: 5%;
+  border: 0.3em solid #EFDFBB;
+}
+
+.puppy-girl {
+  max-width: 200px;
+  position: sticky;
+  display: block;
+  margin: auto;
+  border-radius: 5%;
+  border: 0.3em solid #EFDFBB;
+}
