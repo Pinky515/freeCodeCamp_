@@ -1,29 +1,25 @@
-# Savvy Coders Project Boilerplate Starter Kit
+# Build a Technical Documentation Page
 
-## Overview
+Objective: Build an app that is functionally similar to <https://technical-documentation-page.freecodecamp.rocks>
 
-This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
+User Stories:
 
-In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
+1. You can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation)
+1. Within the #main-doc element, you can see several section elements, each with a class of main-section. There should be a minimum of five
+2. The first element within each .main-section should be a header element, which contains text that describes the topic of that section.
+2. Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java")
+2. The .main-section elements should contain at least ten p elements total (not each)
+1. The .main-section elements should contain at least five code elements total (not each)
+1. The .main-section elements should contain at least five li items total (not each)
+1. You can see a nav element with a corresponding id="navbar"
+1. The navbar element should contain one header element which contains text that describes the topic of the technical documentation
+2. Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section
+2. The header element in the #navbar must come before any link (a) elements in the navbar
+2. Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world")
+2. When you click on a navbar element, the page should navigate to the corresponding section of the #main-doc element (e.g. If you click on a .nav-link element that contains the text "Hello world", the page navigates to a section element with that id, and contains the corresponding header)
+2. On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user
+2. Your technical documentation should use at least one media query
 
-1. [ESLint](eslint.org)
-2. [Stylelint](stylelint.io)
-3. [Prettier](prettier.io)
+ > Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style.
 
-## Get Started
-
-**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per the instructions in the curriculum.
-
-Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), clone the Savvy Starter Repo - essentially, there should be a button that says **Use this template.**
-
-> [Read more about using templates on GitHub here...](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-
-Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual.
-
-Once it's `clone`d to your local machine, `cd` into the directory and **be sure to do:** `npm i` to get all of the dependencies installed. If you see any _errors_ (warnings are OK) on Windows, you may have to do `npm install`.
-
-Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom `right` of your screen). You should install these.
-
-In your repo, feel free to update this README and make any other initial changes to files, etc. Then go ahead and do your usual `git` steps -- add, commit, and push.
-
-**Note:** This is a template repository, no need to 'fork it.
+### ***Happy Coding!***
